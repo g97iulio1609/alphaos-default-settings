@@ -19,6 +19,6 @@ package() {
     cd "${srcdir}/${pkgname}"
 
     mkdir -p "${pkgdir}"/usr/share/glib-2.0/schemas
-    cp -R  /home/alpha/pkg/alphaos-default-settings/alphaos-default-settings/10_oneos-default-settings.gschema.override "${pkgdir}"/usr/share/glib-2.0/schemas
+    cp -R  /home/alpha/pkg/alphaos-default-settings/alphaos-default-settings/10_alphaos-default-settings.gschema.override "${pkgdir}"/usr/share/glib-2.0/schemas
 
 }
