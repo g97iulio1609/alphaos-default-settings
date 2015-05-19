@@ -13,11 +13,12 @@ _repanthalver=0.3.1
 provides=('alphaos-default-settings')
 source=("git+https://github.com/g97iulio1609/alphaos-default-settings.git")
 md5sums=('SKIP')
+install=schemas.install
 
 package() {
     cd "${srcdir}/${pkgname}"
 
-    mkdir -p "${pkgdir}"/usr/share/themes
+    mkdir -p "${pkgdir}"/usr/share/glib-2.0/schemas
     cp -R  /home/alpha/pkg/alphaos-default-settings/alphaos-default-settings/10_oneos-default-settings.gschema.override "${pkgdir}"/usr/share/glib-2.0/schemas
-glib-compile-schemas /usr/share/glib-2.0/schemas
+
 }

@@ -1,13 +1,13 @@
 [org.gnome.shell]
-favorite-apps=[ 'google-chrome.desktop', 'nautilus.desktop', 'geary.desktop', 'empathy.desktop', 'gnome-maps.desktop', 'gnome-weather.desktop', 'noise.desktop', 'totem.desktop', 'gnome-photos.desktop', 'libreoffice-startcenter.desktop', 'simple-scan.desktop', 'california.desktop', 'ubuntu-software-center.desktop' ]
-enabled-extensions=['dock@oneos', 'launcher@oneos', 'workspaces@oneos', 'smartcontrol@oneos',  'suspend-button@oneos']
+favorite-apps=[ 'google-chrome.desktop', 'nautilus.desktop', 'geary.desktop', 'gnome-software.desktop', 'gnome-maps.desktop', 'gnome-weather.desktop', 'noise.desktop', 'audience.desktop', 'gnome-photos.desktop', 'libreoffice-startcenter.desktop', 'simple-scan.desktop', 'california.desktop' ]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'status-menu-buttons@dev.antergos.com']
 [org.gnome.desktop.interface]
-gtk-theme='OneOSUI'
+gtk-theme='Numix-Frost'
 scaling-factor=1
 text-scaling-factor=1.0
-icon-theme='OneOS-Circle'
+icon-theme='Numix-Circle'
 [org.gnome.desktop.wm.preferences]
 button-layout=':minimize,maximize,close'
-theme='OneOSUI'
+theme='Numix-Frost'
 [org.gnome.desktop.background]
 picture-uri='file:///usr/share/backgrounds/oneos-default-settings.jpg'
