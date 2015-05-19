@@ -3,7 +3,7 @@
 # you don't need (and this header).
 
 post_install() {
-sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+ glib-compile-schemas /usr/share/glib-2.0/schemas
 }
 
 
