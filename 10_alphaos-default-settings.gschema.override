@@ -2,7 +2,7 @@
 favorite-apps=[ 'google-chrome.desktop', 'nautilus.desktop', 'geary.desktop', 'gnome-software.desktop', 'gnome-maps.desktop', 'gnome-weather.desktop', 'noise.desktop', 'audience.desktop', 'gnome-photos.desktop', 'libreoffice-startcenter.desktop', 'simple-scan.desktop', 'california.desktop' ]
 enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'status-menu-buttons@dev.antergos.com','user-theme@gnome-shell-extensions.gcampax.github.com']
 [org.gnome.desktop.interface]
-gtk-theme='Numix-Frost'
+gtk-theme='alphaosux'
 scaling-factor=1
 text-scaling-factor=1.0
 icon-theme='Numix-Circle'
